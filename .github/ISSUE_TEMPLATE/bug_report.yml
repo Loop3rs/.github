@@ -33,7 +33,7 @@ body:
       description: "What should happen?"
       placeholder: "The expected outcome of the steps above."
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: actual_behavior
@@ -42,7 +42,7 @@ body:
       description: "What actually happens?"
       placeholder: "The actual outcome of the steps above."
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: screenshots
