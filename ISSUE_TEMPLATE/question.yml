@@ -1,0 +1,29 @@
+
+name: "❓ Question / Help"
+description: "Ask a question or request help"
+title: "[Question] "
+labels: ["question"]
+assignees: []
+
+body:
+  - type: textarea
+    id: question_summary
+    attributes:
+      label: "❓ Question Summary"
+      description: "Clearly describe your question or the help you need."
+      placeholder: "How does X work? / Can I do Y using Z?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "📘 Background Context"
+      description: "Give context, such as what you’ve tried or what you're working on."
+      placeholder: "I’m using X version, I already tried Y, but I’m stuck at Z."
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: "📝 Additional Notes"
+      description: "Add screenshots, error messages, or related links."
